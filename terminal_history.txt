@@ -1,0 +1,24 @@
+  504  cd onedrive/boot_camp/challenges/module_18_challenge
+  505  git clone git@github.com:lydiaciummo/blockchain-ledger-app.git
+  512  cd onedrive/boot_camp/challenges/module_18_challenge
+  513  cd blockchain-ledger-app
+  514  git status
+  515  git add --all
+  516  git commit -m"Added starter code to the repository"
+  517  git push
+  518  ssh -T git@github.com
+  519  git remote set-url origin git@github.com:lydiaciummo/blockchain-ledger-app.git
+  520  ls
+  521  streamlit run pychain.py
+  522  conda activate dev
+  523  streamlit run pychain.py
+  524  git status
+  525  git add pychain.py
+  526  git commit -m"modified the code for pychain.py"
+  527  git push
+  528  streamlit run pychain.py
+  529  git status
+  530  git add pychain.py
+  531  git commit -m"edited comments"
+  532  git push
+  533  history 50 > terminal_history.txt
